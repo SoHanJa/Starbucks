@@ -120,9 +120,6 @@ a{text-decoration: none;}
 #head_layout > .inner{
     height: 120px;
 }
-#head_layout h1 .logo{
-
-}
 #head_layout h1 .logo img{
     position: absolute;
     top: 0;
@@ -214,7 +211,6 @@ a{text-decoration: none;}
     bottom: 0;
     right: 0;
 }
-#head_layout .main_menu .item{}
 #head_layout .main_menu .item .item_name{
     padding: 20px;
 }
@@ -281,7 +277,6 @@ a{text-decoration: none;}
     cursor: pointer;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
 }
-#head_layout .badges .badge img{}
 /* BODY */
 #body_layout{
     margin-top: 123px;
@@ -422,6 +417,7 @@ a{text-decoration: none;}
     text-align: center;
     margin-right: 20px;
     cursor: pointer;
+    z-index: 9;
 }
 #body_layout .notice .inner .inner_right .nbtn.opened{
     transform: scaleY(-1);
@@ -613,9 +609,6 @@ a{text-decoration: none;}
     font-size: 15px;
     margin-bottom: 30px;
 }
-#body_layout .season-product .text-group .btn{
-
-}
 /* RESERVE COFFEE */
 #body_layout .reserve-coffee{
     background-image: url(../images/reserve_bg.jpg);
@@ -655,10 +648,6 @@ a{text-decoration: none;}
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-}
-#body_layout .pick-your-favorite .inner .text-group .img{}
-#body_layout .pick-your-favorite .inner .text-group .title{
-
 }
 #body_layout .pick-your-favorite .inner .text-group .description{
     margin: 40px 0 30px 0;
@@ -734,9 +723,6 @@ a{text-decoration: none;}
     margin-bottom: 20px;
 }
 
-#body_layout .find-store .inner .text-group .btn{
-}
-
 /*AWARDS*/
 #body_layout .awards{
     background-color: #272727;
@@ -757,9 +743,6 @@ a{text-decoration: none;}
 #body_layout .awards .inner .swiper-container .swiper-slide{
     width: 162px;
     display: flex;
-}
-#body_layout .awards .inner .swiper-container .swiper-slide-active{
-
 }
 
 #body_layout .awards .swiper-prev,
